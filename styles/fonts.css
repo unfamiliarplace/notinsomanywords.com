@@ -1,0 +1,47 @@
+@font-face {
+  font-family:"adobe-garamond-pro";
+  src:url("/assets/fonts/AGaramondPro-Bold/AGaramondPro-Bold.woff2") format("woff2"),url("/assets/fonts/AGaramondPro-Bold/AGaramondPro-Bold.woff") format("woff"),url("/assets/fonts/AGaramondPro-Bold/AGaramondPro-Bold.ttf") format("opentype");
+  font-display:auto;font-style:normal;font-weight:700;
+  }
+  
+  @font-face {
+  font-family:"adobe-garamond-pro";
+  src:url("/assets/fonts/AGaramondPro-BoldItalic/AGaramondPro-BoldItalic.woff2") format("woff2"),url("/assets/fonts/AGaramondPro-BoldItalic/AGaramondPro-BoldItalic.woff") format("woff"),url("/assets/fonts/AGaramondPro-BoldItalic/AGaramondPro-BoldItalic.ttf") format("opentype");
+  font-display:auto;font-style:italic;font-weight:700;
+  }
+  
+  @font-face {
+  font-family:"adobe-garamond-pro";
+  src:url("/assets/fonts/AGaramondPro-Italic/AGaramondPro-Italic.woff2") format("woff2"),url("/assets/fonts/AGaramondPro-Italic/AGaramondPro-Italic.woff") format("woff"),url("/assets/fonts/AGaramondPro-Italic/AGaramondPro-Italic.ttf") format("opentype");
+  font-display:auto;font-style:italic;font-weight:400;
+  }
+  
+  @font-face {
+  font-family:"adobe-garamond-pro";
+  src:url("/assets/fonts/AGaramondPro-Regular/AGaramondPro-Regular.woff2") format("woff2"),url("/assets/fonts/AGaramondPro-Regular/AGaramondPro-Regular.woff") format("woff"),url("/assets/fonts/AGaramondPro-Regular/AGaramondPro-Regular.ttf") format("opentype");
+  font-display:auto;font-style:normal;font-weight:400;
+  }
+  
+  @font-face {
+  font-family:"linotype-didot";
+  src:url("/assets/fonts/DidotLTPro-Bold/DidotLTPro-Bold.woff2") format("woff2"),url("/assets/fonts/DidotLTPro-Bold/DidotLTPro-Bold.woff") format("woff"),url("/assets/fonts/DidotLTPro-Bold/DidotLTPro-Bold.ttf") format("opentype");
+  font-display:auto;font-style:normal;font-weight:700;
+  }
+  
+  @font-face {
+  font-family:"linotype-didot";
+  src:url("/assets/fonts/DidotLTPro-BoldItalic/DidotLTPro-BoldItalic.woff2") format("woff2"),url("/assets/fonts/DidotLTPro-BoldItalic/DidotLTPro-BoldItalic.woff") format("woff"),url("/assets/fonts/DidotLTPro-BoldItalic/DidotLTPro-BoldItalic.ttf") format("opentype");
+  font-display:auto;font-style:italic;font-weight:700;
+  }
+  
+  @font-face {
+  font-family:"linotype-didot";
+  src:url("/assets/fonts/DidotLTPro-Italic/DidotLTPro-Italic.woff2") format("woff2"),url("/assets/fonts/DidotLTPro-Italic/DidotLTPro-Italic.woff") format("woff"),url("/assets/fonts/DidotLTPro-Italic/DidotLTPro-Italic.ttf") format("opentype");
+  font-display:auto;font-style:italic;font-weight:400;
+  }
+  
+  @font-face {
+  font-family:"linotype-didot";
+  src:url("/assets/fonts/DidotLTPro-Roman/DidotLTPro-Roman.woff2") format("woff2"),url("/assets/fonts/DidotLTPro-Roman/DidotLTPro-Roman.woff") format("woff"),url("/assets/fonts/DidotLTPro-Roman/DidotLTPro-Roman.ttf") format("opentype");
+  font-display:auto;font-style:normal;font-weight:400;
+  }

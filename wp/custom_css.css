@@ -1,0 +1,322 @@
+/*
+ * Original Adobe typekit CSS
+
+@font-face {
+font-family:"adobe-garamond-pro";
+src:url("https://use.typekit.net/af/af619f/00000000000000003b9b00c5/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/af619f/00000000000000003b9b00c5/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/af619f/00000000000000003b9b00c5/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"adobe-garamond-pro";
+src:url("https://use.typekit.net/af/6c275f/00000000000000003b9b00c6/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/6c275f/00000000000000003b9b00c6/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/6c275f/00000000000000003b9b00c6/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;
+}
+
+@font-face {
+font-family:"adobe-garamond-pro";
+src:url("https://use.typekit.net/af/5cace6/00000000000000003b9b00c2/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/5cace6/00000000000000003b9b00c2/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/5cace6/00000000000000003b9b00c2/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;
+}
+
+@font-face {
+font-family:"adobe-garamond-pro";
+src:url("https://use.typekit.net/af/2011b6/00000000000000003b9b00c1/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/2011b6/00000000000000003b9b00c1/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/2011b6/00000000000000003b9b00c1/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"linotype-didot";
+src:url("https://use.typekit.net/af/18c873/00000000000000003b9b22f8/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/18c873/00000000000000003b9b22f8/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/18c873/00000000000000003b9b22f8/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"linotype-didot";
+src:url("https://use.typekit.net/af/0f6052/00000000000000003b9b22f9/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/0f6052/00000000000000003b9b22f9/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/0f6052/00000000000000003b9b22f9/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;
+}
+
+@font-face {
+font-family:"linotype-didot";
+src:url("https://use.typekit.net/af/5e526d/00000000000000003b9b22ee/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/5e526d/00000000000000003b9b22ee/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/5e526d/00000000000000003b9b22ee/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;
+}
+
+@font-face {
+font-family:"linotype-didot";
+src:url("https://use.typekit.net/af/3d6ac8/00000000000000003b9b22ed/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/3d6ac8/00000000000000003b9b22ed/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/3d6ac8/00000000000000003b9b22ed/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+*/
+
+/*
+ * Locally hosted version
+*/
+
+@font-face {
+    font-family:"adobe-garamond-pro";
+    src:url("/assets/fonts/AGaramondPro-Bold/AGaramondPro-Bold.woff2") format("woff2"),url("/assets/fonts/AGaramondPro-Bold/AGaramondPro-Bold.woff") format("woff"),url("/assets/fonts/AGaramondPro-Bold/AGaramondPro-Bold.ttf") format("opentype");
+    font-display:auto;font-style:normal;font-weight:700;
+    }
+    
+    @font-face {
+    font-family:"adobe-garamond-pro";
+    src:url("/assets/fonts/AGaramondPro-BoldItalic/AGaramondPro-BoldItalic.woff2") format("woff2"),url("/assets/fonts/AGaramondPro-BoldItalic/AGaramondPro-BoldItalic.woff") format("woff"),url("/assets/fonts/AGaramondPro-BoldItalic/AGaramondPro-BoldItalic.ttf") format("opentype");
+    font-display:auto;font-style:italic;font-weight:700;
+    }
+    
+    @font-face {
+    font-family:"adobe-garamond-pro";
+    src:url("/assets/fonts/AGaramondPro-Italic/AGaramondPro-Italic.woff2") format("woff2"),url("/assets/fonts/AGaramondPro-Italic/AGaramondPro-Italic.woff") format("woff"),url("/assets/fonts/AGaramondPro-Italic/AGaramondPro-Italic.ttf") format("opentype");
+    font-display:auto;font-style:italic;font-weight:400;
+    }
+    
+    @font-face {
+    font-family:"adobe-garamond-pro";
+    src:url("/assets/fonts/AGaramondPro-Regular/AGaramondPro-Regular.woff2") format("woff2"),url("/assets/fonts/AGaramondPro-Regular/AGaramondPro-Regular.woff") format("woff"),url("/assets/fonts/AGaramondPro-Regular/AGaramondPro-Regular.ttf") format("opentype");
+    font-display:auto;font-style:normal;font-weight:400;
+    }
+    
+    @font-face {
+    font-family:"linotype-didot";
+    src:url("/assets/fonts/DidotLTPro-Bold/DidotLTPro-Bold.woff2") format("woff2"),url("/assets/fonts/DidotLTPro-Bold/DidotLTPro-Bold.woff") format("woff"),url("/assets/fonts/DidotLTPro-Bold/DidotLTPro-Bold.ttf") format("opentype");
+    font-display:auto;font-style:normal;font-weight:700;
+    }
+    
+    @font-face {
+    font-family:"linotype-didot";
+    src:url("/assets/fonts/DidotLTPro-BoldItalic/DidotLTPro-BoldItalic.woff2") format("woff2"),url("/assets/fonts/DidotLTPro-BoldItalic/DidotLTPro-BoldItalic.woff") format("woff"),url("/assets/fonts/DidotLTPro-BoldItalic/DidotLTPro-BoldItalic.ttf") format("opentype");
+    font-display:auto;font-style:italic;font-weight:700;
+    }
+    
+    @font-face {
+    font-family:"linotype-didot";
+    src:url("/assets/fonts/DidotLTPro-Italic/DidotLTPro-Italic.woff2") format("woff2"),url("/assets/fonts/DidotLTPro-Italic/DidotLTPro-Italic.woff") format("woff"),url("/assets/fonts/DidotLTPro-Italic/DidotLTPro-Italic.ttf") format("opentype");
+    font-display:auto;font-style:italic;font-weight:400;
+    }
+    
+    @font-face {
+    font-family:"linotype-didot";
+    src:url("/assets/fonts/DidotLTPro-Roman/DidotLTPro-Roman.woff2") format("woff2"),url("/assets/fonts/DidotLTPro-Roman/DidotLTPro-Roman.woff") format("woff"),url("/assets/fonts/DidotLTPro-Roman/DidotLTPro-Roman.ttf") format("opentype");
+    font-display:auto;font-style:normal;font-weight:400;
+    }
+    
+    /* August 2023 */
+    
+    .entry-header, .site-description {
+        display: none;
+    }
+    
+    .site-title {
+        
+    }
+    
+    /* original stuff */
+    .container {
+      width: 100%;
+    }
+    
+    .page-wrap .content-wrapper {
+        background: transparent;
+    }
+    
+    h1, h2, h3, h4, h5, h6, p {
+        font-weight: 300;
+        -webkit-font-smoothing: antialiased;
+    }
+    
+    h3 {
+        font-size: 46px;
+      line-height: 1.4;
+    }
+    
+    h4 {
+        font-size: 36px;
+    }
+    
+    p {
+        font-size: 24px;
+    }
+    
+    .bigger-text p {
+        font-size: 32px;
+    }
+    
+    .site-header, .site-header.fixed {
+        background-color: rgb(168, 166, 161);
+        padding: 29.56px 61.8px !important;
+        transform: none !important;
+    }
+    
+    .site-info {
+        display: none;
+    }
+    
+    .current-menu-item {
+       border-bottom: 1px solid #fff;
+    }
+    
+    #mainnav ul li a {
+      font-size: 24px;
+    }
+    
+    #mainnav ul li {
+        padding: 0;
+        margin: 14px;
+    }
+    
+    .page-wrap {
+       padding: 0;
+    }
+    
+    .page .page-wrap .content-wrapper {
+      padding-bottom: 0;
+    }
+    
+    #contact-form {
+        text-align: center;
+    }
+    
+    .grecaptcha-badge {
+      display: none !important;
+    }
+    
+    a.anchor {
+        display: block;
+        position: relative;
+        top: -175px;
+        visibility: hidden;
+    }
+    
+    a#contact {
+        top: -150px;
+    }
+    
+    input[type="text"], input[type="email"] {
+      max-width: 100%;
+    }
+    
+    .mobile-smaller h3 {
+      font-size: 36px;
+    }
+    
+    section.background-effects {
+        padding-top: 200px !important;
+    }
+    
+    .ajax-loader {
+    width: 0px !important;
+    }
+    
+    #linkedin-panel svg {
+     height: 54px;
+    }
+    
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .btn-menu {
+            float: right !important
+        }
+    }
+    
+    @media (max-width: 767px) {
+        .btn-menu {
+            float: none;
+            margin: auto;
+        }
+    }
+    
+    @media (max-width: 767px) { 
+        site-title {
+            font-size: 36px;
+        }
+      section.elementor-section-stretched, .site-header, .site-header.fixed {
+        padding: 10px !important;
+      }
+        section.background-effects {
+        padding-top: 40px !important;
+    }
+        .btn-menu {
+            margin: auto;
+            margin-top: 0;
+            height: 36px;
+        }
+        h3 {
+        font-size: 30px;
+      }
+        .mobile-smaller h3 {
+            font-size: 25px;
+        }
+        h4 {
+            font-size: 26px;
+        }
+        p {
+            font-size: 20px;
+        }
+      .bigger-text p {
+        font-size: 22px;
+      }
+        section.mobile-no-padding {
+        padding: 0px !important;
+      }
+        a.anchor, a#contact {
+        top: 0px;
+    }
+    }
+    
+    @media (min-width: 768px) { 
+        .site-header .col-md-4.col-sm-8  {
+      width: 75%;
+    }
+    
+    .site-header .col-md-8.col-sm-4 {
+        width: 25%;
+    }
+    }
+    
+    .site-description {
+      font-size: 22px;
+    }
+    
+    #mainnav-mobi li a {
+      padding: 30px 0px !important;
+      text-align: center;
+      border-bottom: 1px solid #eee;
+    }
+    
+    @media (max-width: 1299px) { 
+        .site-description {
+        font-size: 21px;
+      }
+    }
+    
+    @media (max-width: 1099px) { 
+        .site-description {
+        font-size: 18px;
+      }
+    }
+    
+    @media (max-width: 885px) { 
+        .site-description {
+        font-size: 16px;
+      }
+    }
+    
+    @media (max-width: 804px) { 
+        .site-description {
+        font-size: 15px;
+      }
+    }
+    
+    @media (max-width: 767px) { 
+        .site-description {
+        font-size: 16px;
+      }
+    }
+    
+    @media (max-width: 399px) { 
+        .site-description {
+        font-size: 13px;
+      }
+    }
